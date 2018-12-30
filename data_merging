@@ -1,1 +1,79 @@
+data main;
+input x y z;
+datalines;
+1 2 3
+7 8 9
+;
+run;
 
+data more_people;
+input x y z;
+datalines;
+4 5 6
+3 6 9
+;
+run;
+
+data one_set_final;
+set main more_people;
+run;
+
+proc print data = one_set_final;
+run;
+
+data more_vars;
+input a b c;
+datalines;
+20 40 60
+10 20 30
+;
+run;
+
+data two_set_final;
+set main;
+set more_vars;
+run;
+
+proc print data=two_set_final;
+run;
+
+/* Aside from using set statement for merging, merge statement can be used for the same purpose */
+
+data more_vars_and_people;
+input x a b c;
+datalines;
+1 20 40 60
+7 10 20 30
+2 11 12 13
+3 14 15 16
+;
+run;
+
+proc sort data=main;
+by x;
+run;
+
+proc sort data=more_vars_and_people;
+by x;
+run;
+
+data merge_final;
+merge main more_vars_and_people;
+by x;
+run;
+
+proc print data=merge_final;
+run;
+
+
+
+proc sql;
+create table sql_final as /* this statetment creates a table called sql_final*/
+select L.*, R.* /* everything from the Left, L and everything from the Right, R is selected from the data (main)*/
+from main as L /* Left is the main dataset*/
+LEFT JOIN more_vars_and_people as R /* more_vars_and_people dataset is right. Applying LEFT JOIN */
+on L.x=R.x; /* x is the common demoninator between the two datasets. LEFT JOIN specifies that everything in our left dataset (main) is included in the merging whilst only matching value in our right datasets are join with this newly created dataset*/
+quit;
+
+proc print data=sql_final;
+run;
