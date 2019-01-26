@@ -1,0 +1,7 @@
+libname jj xlsx "C:\Users\User\Desktop\mydata1.xlsx";
+
+proc print data= jj.naidu;
+run;
+
+proc print data= jj.uuu;
+run;
