@@ -181,6 +181,20 @@ run;
 
 proc print;
 run;
+
+data kk;
+    a=20;
+    b=30;
+    c="hi there";
+    output;
+    a=10;
+    b=20;
+    c="I am from Naija";
+    output;
+run;
+proc print data=kk;
+run;
+
 /****************practice********************/
 
 data naidu;
