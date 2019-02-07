@@ -259,3 +259,23 @@ run;
 proc print data=sideeffects;
 format time dateampm20.;
 run;
+
+/*Reading, Writing and Calculating Date Values*/
+
+data meeting;
+options nodate pageno=1 linesize=100 pagesize=60;    
+   input region $ mtg : mmddyy10.;
+   sendmail=mtg-45;
+   datalines;
+N  11-24-99
+S  12-28-99
+E  12-03-99
+W  10-04-99
+;
+run;
+
+
+proc print data=meeting;
+   format mtg sendmail date9.;
+   title 'When To Send Announcements';
+run;
