@@ -11,6 +11,6 @@ Topic 6 --<br/>
 Topic 7 --<br/>
 Topic 8 --<br/>
 Topic 9 --<br/>
-Topic 10 --<br/>
-Topic 14 & 15 -- Arrays & Transpose<br/>
+Topic 13 -- Loop (do while, do until, do loop) <br/>
+Topic 14 & 15 -- Arrays & Transpose <br/>
 
