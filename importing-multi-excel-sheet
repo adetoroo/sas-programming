@@ -5,3 +5,16 @@ run;
 
 proc print data= jj.uuu;
 run;
+
+
+/* because Excel field names often have spaces */
+options validvarname=any;
+ 
+libname xl XLSX '/folders/myfolders/sas_tech_talks_15.xlsx';
+ 
+/* read in one of the tables */
+data confirmed;
+  set xl.confirmed;
+run;
+ 
+libname xl CLEAR;
