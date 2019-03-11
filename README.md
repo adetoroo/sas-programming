@@ -2,15 +2,15 @@
 ## Journal of SAS skills<br/>
 ### Covers SAS Base, Advanced and Clinical<br/>
 **SAS Base**<br/>
-Topic 1 -- Different input method in SAS <br/>
-Topic 2 -- Reading data value in SAS (Format and Informat) <br/>
-Topic 3 -- Column modifier in place of informat <br/>
-Topic 4 -- Importing external file into SAS <br/>
-Topic 5 -- Global Options <br/>
-Topic 6 -- Proc Format <br/>
-Topic 7 -- Dataset Options <br/>
-Topic 8 -- Proc Import and Export <br/>
-Topic 9 -- Importing text file <br/>
+Topic 1 -- Different input method in SAS* <br/>
+Topic 2 -- Reading data value in SAS (Format and Informat)* <br/>
+Topic 3 -- Column modifier in place of informat* <br/>
+Topic 4 -- Importing external file into SAS* <br/>
+Topic 5 -- Global Options* <br/>
+Topic 6 -- Proc Format* <br/>
+Topic 7 -- Dataset Options* <br/>
+Topic 8 -- Proc Import and Export* <br/>
+Topic 9 -- Importing text file* <br/>
 Topic 10 --Character Function <br/>
 Topic 11 --Numeric Function <br/>
 Topic 12 --Special Function <br/>
