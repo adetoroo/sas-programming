@@ -27,7 +27,7 @@ Topic 22 --Proc Freq (Categorical Data Analysis) <br/>
 Topic 23 --Proc Tabulate <br/>
 Topic 24 --Proc Report <br/>
 
-**SAS Advanced**<br/>
+**SAS Advanced (Sql & Macros) **<br/>
 
 **SAS Clinical**<br/>
 
