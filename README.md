@@ -25,5 +25,5 @@ Topic 20 --Proc Transpose <br/>
 Topic 21 --Proc Means <br/>
 Topic 22 --Proc Freq (Categorical Data Analysis) <br/>
 Topic 23 --Proc Tabulate <br/>
-Topic 20 --Proc Report <br/>
+Topic 24 --Proc Report <br/>
 
