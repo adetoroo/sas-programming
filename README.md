@@ -30,4 +30,22 @@ Topic 24 --Proc Report <br/>
 **SAS Advanced (Sql & Macros)**<br/>
 
 **SAS Clinical**<br/>
+-- Folder Structure and Project Outline <br/>
+
+-- Raw Datasets Creation and Annotation <br/>
+
+-- SDTM (Study Data Tabulation Model) Creation <br/>
+SDTM DM <br/>
+SDTM EX <br/>
+SDTM VS <br/>
+SDTM AE <br/>
+SDTM LB <br/>
+
+-- ADaM (Analysis Data Model) <br/>
+ADam & ADSL <br/>
+ADVS <br/>
+ADLB <br/>
+ADAE <br/>
+
+-- Table Listings and Figures <br/>
 
