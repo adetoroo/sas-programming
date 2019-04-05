@@ -17,11 +17,11 @@ MODIFICATION HISTORY:
 <Description>
 ******************************************;
 /*Create a library to store Demographic datasets created*/
-libname Raw "C:\QPS3\Raw";
+libname Raw "C:\Users\User\Google Drive\SAS Programming Training\Indian-Online Training\Clinical\LIVE PROJECT\QPS3\RAW";
 
 /*Import excel dataset and convert it to sas datasets*/
 
-proc import datafile = "C:\QPS3\Raw\Demo_Raw.xlsx" out=raw.demo_raw dbms=xlsx replace;
+proc import datafile = "C:\Users\User\Google Drive\SAS Programming Training\Indian-Online Training\Clinical\LIVE PROJECT\QPS3\RAW\Demo_Raw.xlsx" out=raw.demo_raw dbms=xlsx replace;
 run;
 
 /*round up some variables*/
@@ -31,3 +31,8 @@ set raw.demo_raw;
 format AGEU 2.0 HT 3.0 WT 3.0;
 run;
 
+proc import datafile = "C:\Users\User\Google Drive\SAS Programming Training\Indian-Online Training\Clinical\LIVE PROJECT\QPS3\RAW\exposure_Raw.xlsx" out=raw.exposure_raw dbms=xlsx replace;
+run;
+
+proc import datafile = "C:\Users\User\Google Drive\SAS Programming Training\Indian-Online Training\Clinical\LIVE PROJECT\QPS3\RAW\rnd.xlsx" out=raw.rnd dbms=xlsx replace;
+run;
