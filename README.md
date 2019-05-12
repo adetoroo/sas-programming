@@ -42,7 +42,7 @@ SDTM AE <br/>
 SDTM LB <br/>
 
 -- ADaM (Analysis Data Model) <br/>
-ADam & ADSL <br/>
+ADSL <br/>
 ADVS <br/>
 ADLB <br/>
 ADAE <br/>
